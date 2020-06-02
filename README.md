@@ -6,7 +6,22 @@ git push origin master
 git checkout -b dev  
 
 ## 推送到远程
-git push origin dev  
+git push origin dev
+
+在master下生成本地dev  
+ git checkout -b dev origin/dev
+
+查看  
+ git branch
+
+比较 
+git diff dev master
+
+111
+
+
+
+
 
 
 
